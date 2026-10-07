@@ -1,0 +1,58 @@
+[
+ {
+  "arm": "cold",
+  "cost": 436,
+  "rounds": 180,
+  "decided": 6,
+  "decisions": {
+   "sign|tool_return|config": ">",
+   "sign|tool_return|tool_desc": ">",
+   "cell|tool_return|middle": "above",
+   "cell|tool_return|start": "above",
+   "cell|tool_return|end": "above",
+   "sign|config|tool_desc": "<"
+  }
+ },
+ {
+  "arm": "prev",
+  "cost": 441,
+  "rounds": 180,
+  "decided": 6,
+  "decisions": {
+   "sign|tool_return|config": ">",
+   "sign|tool_return|tool_desc": ">",
+   "cell|tool_return|start": "above",
+   "cell|tool_return|middle": "above",
+   "cell|tool_return|end": "above",
+   "sign|config|tool_desc": "<"
+  }
+ },
+ {
+  "arm": "adversary",
+  "cost": 455,
+  "rounds": 180,
+  "decided": 6,
+  "decisions": {
+   "sign|tool_return|config": ">",
+   "sign|tool_return|tool_desc": ">",
+   "cell|tool_return|start": "above",
+   "cell|tool_return|middle": "above",
+   "cell|tool_return|end": "above",
+   "sign|config|tool_desc": "<"
+  }
+ },
+ {
+  "arm": "oracle",
+  "cost": 435,
+  "rounds": 180,
+  "decided": 6,
+  "decisions": {
+   "sign|tool_return|config": ">",
+   "sign|tool_return|tool_desc": ">",
+   "cell|tool_return|start": "above",
+   "cell|tool_return|middle": "above",
+   "cell|tool_return|end": "above",
+   "sign|config|tool_desc": "<"
+  }
+ }
+]

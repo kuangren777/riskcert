@@ -1,0 +1,105 @@
+{
+ "alpha": 0.05,
+ "K": 27,
+ "reps": 200,
+ "rounds": 1000,
+ "seed": 2029,
+ "settings": {
+  "real": {
+   "comparison (ours)": {
+    "fwer": 0.0,
+    "correct_at": {
+     "100": 3.25,
+     "250": 15.925,
+     "500": 19.955,
+     "1000": 22.905
+    },
+    "mean_round_correct": 250.00480244488102
+   },
+   "sign (ours)": {
+    "fwer": 0.0,
+    "correct_at": {
+     "100": 12.9,
+     "250": 18.55,
+     "500": 21.66,
+     "1000": 22.82
+    },
+    "mean_round_correct": 155.2092462751972
+   },
+   "Rank CS": {
+    "fwer": 0.0,
+    "correct_at": {
+     "100": 9.845,
+     "250": 17.705,
+     "500": 21.695,
+     "1000": 22.985
+    },
+    "mean_round_correct": 177.5610180552534
+   },
+   "BB-EDGE": {
+    "fwer": 0.0,
+    "correct_at": {
+     "100": 4.58,
+     "250": 15.71,
+     "500": 19.265,
+     "1000": 22.68
+    },
+    "mean_round_correct": 251.772266313933
+   }
+  },
+  "null": {
+   "comparison (ours)": {
+    "fwer": 0.0,
+    "correct_at": {
+     "100": 0.0,
+     "250": 0.0,
+     "500": 0.0,
+     "1000": 0.0
+    },
+    "mean_round_correct": null
+   },
+   "sign (ours)": {
+    "fwer": 0.015,
+    "correct_at": {
+     "100": 0.0,
+     "250": 0.0,
+     "500": 0.0,
+     "1000": 0.0
+    },
+    "mean_round_correct": null
+   },
+   "Rank CS": {
+    "fwer": 0.005,
+    "correct_at": {
+     "100": 0.0,
+     "250": 0.0,
+     "500": 0.0,
+     "1000": 0.0
+    },
+    "mean_round_correct": null
+   },
+   "BB-EDGE": {
+    "fwer": 0.0,
+    "correct_at": {
+     "100": 0.0,
+     "250": 0.0,
+     "500": 0.0,
+     "1000": 0.0
+    },
+    "mean_round_correct": null
+   }
+  }
+ },
+ "C_valid": {
+  "comparison (ours)": true,
+  "sign (ours)": true,
+  "Rank CS": true,
+  "BB-EDGE": true
+ },
+ "C_power": {
+  "sign_at_500": 21.66,
+  "rank_at_500": 21.695,
+  "bb_at_500": 19.265,
+  "pass": false
+ }
+}

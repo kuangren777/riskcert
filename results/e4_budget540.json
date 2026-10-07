@@ -1,0 +1,75 @@
+{
+ "exploratory": true,
+ "budget": 540,
+ "reps": 200,
+ "results": {
+  "gpt-5.4-nano-2026-03-17": {
+   "cold": {
+    "replay_mean_decided": 3.205,
+    "replay_p10_p90": [
+     2.0,
+     4.0
+    ],
+    "live_decided": 2
+   },
+   "prev": {
+    "replay_mean_decided": 3.225,
+    "replay_p10_p90": [
+     2.0,
+     4.0
+    ],
+    "live_decided": 2
+   },
+   "oracle": {
+    "replay_mean_decided": 3.4,
+    "replay_p10_p90": [
+     2.0,
+     4.0
+    ],
+    "live_decided": 4
+   },
+   "adversary": {
+    "replay_mean_decided": 2.85,
+    "replay_p10_p90": [
+     2.0,
+     4.0
+    ],
+    "live_decided": 4
+   }
+  },
+  "qwen3-32b-local": {
+   "cold": {
+    "replay_mean_decided": 5.995,
+    "replay_p10_p90": [
+     6.0,
+     6.0
+    ],
+    "live_decided": 6
+   },
+   "prev": {
+    "replay_mean_decided": 6.0,
+    "replay_p10_p90": [
+     6.0,
+     6.0
+    ],
+    "live_decided": 6
+   },
+   "oracle": {
+    "replay_mean_decided": 6.0,
+    "replay_p10_p90": [
+     6.0,
+     6.0
+    ],
+    "live_decided": 6
+   },
+   "adversary": {
+    "replay_mean_decided": 5.97,
+    "replay_p10_p90": [
+     6.0,
+     6.0
+    ],
+    "live_decided": 6
+   }
+  }
+ }
+}

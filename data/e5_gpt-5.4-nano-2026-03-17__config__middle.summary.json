@@ -1,0 +1,8 @@
+{
+ "cell": "gpt-5.4-nano-2026-03-17__config__middle",
+ "stop_n": 800,
+ "bound": Infinity,
+ "species": 38,
+ "new_in_continuation": 4,
+ "cont_runs": 300
+}

@@ -1,0 +1,8 @@
+{
+ "cell": "gpt-4o-mini-2024-07-18__tool_return__start",
+ "stop_n": 800,
+ "bound": Infinity,
+ "species": 32,
+ "new_in_continuation": 2,
+ "cont_runs": 300
+}

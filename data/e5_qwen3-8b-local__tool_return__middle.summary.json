@@ -1,0 +1,8 @@
+{
+ "cell": "qwen3-8b-local__tool_return__middle",
+ "stop_n": 687,
+ "bound": 0.04997059618190067,
+ "species": 19,
+ "new_in_continuation": 0,
+ "cont_runs": 300
+}

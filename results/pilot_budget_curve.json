@@ -1,0 +1,145 @@
+{
+ "K": 15,
+ "reps": 50,
+ "budgets": [
+  900,
+  1800,
+  3600,
+  7200,
+  14400
+ ],
+ "arms": {
+  "riskcert/open_strata+tie0.05/a=0.05": {
+   "900": {
+    "correct": 0.0,
+    "p_any_wrong": 0.0
+   },
+   "1800": {
+    "correct": 2.92,
+    "p_any_wrong": 0.0
+   },
+   "3600": {
+    "correct": 9.44,
+    "p_any_wrong": 0.0
+   },
+   "7200": {
+    "correct": 12.44,
+    "p_any_wrong": 0.0
+   },
+   "14400": {
+    "correct": 13.44,
+    "p_any_wrong": 0.0
+   }
+  },
+  "riskcert/open_strata/a=0.05": {
+   "900": {
+    "correct": 0.06,
+    "p_any_wrong": 0.0
+   },
+   "1800": {
+    "correct": 2.86,
+    "p_any_wrong": 0.0
+   },
+   "3600": {
+    "correct": 9.4,
+    "p_any_wrong": 0.0
+   },
+   "7200": {
+    "correct": 12.12,
+    "p_any_wrong": 0.0
+   },
+   "14400": {
+    "correct": 13.44,
+    "p_any_wrong": 0.0
+   }
+  },
+  "riskcert_sign/open_strata/a=0.05": {
+   "900": {
+    "correct": 2.8,
+    "p_any_wrong": 0.0
+   },
+   "1800": {
+    "correct": 8.46,
+    "p_any_wrong": 0.0
+   },
+   "3600": {
+    "correct": 12.1,
+    "p_any_wrong": 0.0
+   },
+   "7200": {
+    "correct": 12.52,
+    "p_any_wrong": 0.0
+   },
+   "14400": {
+    "correct": 13.08,
+    "p_any_wrong": 0.0
+   }
+  },
+  "riskcert_sign_mix/open_strata/a=0.05": {
+   "900": {
+    "correct": 0.0,
+    "p_any_wrong": 0.0
+   },
+   "1800": {
+    "correct": 2.9,
+    "p_any_wrong": 0.0
+   },
+   "3600": {
+    "correct": 9.54,
+    "p_any_wrong": 0.0
+   },
+   "7200": {
+    "correct": 12.26,
+    "p_any_wrong": 0.0
+   },
+   "14400": {
+    "correct": 13.44,
+    "p_any_wrong": 0.0
+   }
+  },
+  "sprt_rr/eta=0.1/a=0.01": {
+   "900": {
+    "correct": 0.0,
+    "p_any_wrong": 0.0
+   },
+   "1800": {
+    "correct": 2.18,
+    "p_any_wrong": 0.0
+   },
+   "3600": {
+    "correct": 9.76,
+    "p_any_wrong": 0.0
+   },
+   "7200": {
+    "correct": 13.82,
+    "p_any_wrong": 0.02
+   },
+   "14400": {
+    "correct": 14.0,
+    "p_any_wrong": 0.08
+   }
+  },
+  "sprt_rr/eta=0.1/a=0.05": {
+   "900": {
+    "correct": 0.24,
+    "p_any_wrong": 0.0
+   },
+   "1800": {
+    "correct": 4.72,
+    "p_any_wrong": 0.0
+   },
+   "3600": {
+    "correct": 12.38,
+    "p_any_wrong": 0.0
+   },
+   "7200": {
+    "correct": 13.98,
+    "p_any_wrong": 0.18
+   },
+   "14400": {
+    "correct": 13.98,
+    "p_any_wrong": 0.24
+   }
+  }
+ }
+}

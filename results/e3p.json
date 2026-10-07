@@ -1,0 +1,168 @@
+{
+ "K": 27,
+ "reps": 400,
+ "n_rounds": 500,
+ "results": {
+  "null": {
+   "1": {
+    "R1": {
+     "fwer": 0.0025,
+     "sprt_in_zone_errors": 0.0
+    },
+    "R1prime": {
+     "fwer": 0.0025,
+     "sprt_in_zone_errors": 0.0
+    },
+    "SPRT0.05": {
+     "fwer": 0.675,
+     "sprt_in_zone_errors": 0.675
+    },
+    "SPRT0.01": {
+     "fwer": 0.4875,
+     "sprt_in_zone_errors": 0.4875
+    },
+    "McNemar_peek": {
+     "fwer": 0.04,
+     "sprt_in_zone_errors": 0.0
+    },
+    "Wilson_peek": {
+     "fwer": 0.05,
+     "sprt_in_zone_errors": 0.0
+    }
+   },
+   "5": {
+    "R1": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "R1prime": {
+     "fwer": 0.0125,
+     "sprt_in_zone_errors": 0.0
+    },
+    "SPRT0.05": {
+     "fwer": 0.98,
+     "sprt_in_zone_errors": 0.98
+    },
+    "SPRT0.01": {
+     "fwer": 0.8825,
+     "sprt_in_zone_errors": 0.8825
+    },
+    "McNemar_peek": {
+     "fwer": 0.0675,
+     "sprt_in_zone_errors": 0.0
+    },
+    "Wilson_peek": {
+     "fwer": 0.1,
+     "sprt_in_zone_errors": 0.0
+    }
+   },
+   "20": {
+    "R1": {
+     "fwer": 0.0025,
+     "sprt_in_zone_errors": 0.0
+    },
+    "R1prime": {
+     "fwer": 0.0125,
+     "sprt_in_zone_errors": 0.0
+    },
+    "SPRT0.05": {
+     "fwer": 0.995,
+     "sprt_in_zone_errors": 0.995
+    },
+    "SPRT0.01": {
+     "fwer": 0.9575,
+     "sprt_in_zone_errors": 0.9575
+    },
+    "McNemar_peek": {
+     "fwer": 0.1325,
+     "sprt_in_zone_errors": 0.0
+    },
+    "Wilson_peek": {
+     "fwer": 0.2125,
+     "sprt_in_zone_errors": 0.0
+    }
+   }
+  },
+  "real": {
+   "1": {
+    "R1": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "R1prime": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "SPRT0.05": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "SPRT0.01": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "McNemar_peek": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "Wilson_peek": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    }
+   },
+   "5": {
+    "R1": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "R1prime": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "SPRT0.05": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "SPRT0.01": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "McNemar_peek": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "Wilson_peek": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    }
+   },
+   "20": {
+    "R1": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "R1prime": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "SPRT0.05": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "SPRT0.01": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "McNemar_peek": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    },
+    "Wilson_peek": {
+     "fwer": 0.0,
+     "sprt_in_zone_errors": 0.0
+    }
+   }
+  }
+ },
+ "pass": true
+}

@@ -1,0 +1,13 @@
+{
+ "model": "deepseek-v4.1-flash",
+ "rounds_used": 450,
+ "decision": null,
+ "certified": false,
+ "interval": [
+  -0.862,
+  0.21399999999999997
+ ],
+ "runs_recorded": 900,
+ "seed": 34,
+ "units_sha": "65eff35cf062259deec27d4f47d5a5cdb3525d309a8772c8c2c99564e95f2002"
+}

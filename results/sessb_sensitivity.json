@@ -1,0 +1,300 @@
+{
+ "overflow_keys": [
+  "qwen25-7b-local|config|start|travel|user_task_10|injection_task_1|12",
+  "qwen25-7b-local|tool_desc|middle|travel|user_task_10|injection_task_1|11",
+  "qwen25-7b-local|tool_return|middle|travel|user_task_11|injection_task_2|13"
+ ],
+ "variants": {
+  "primary": {
+   "c2_r1": 6,
+   "c2_r1prime": 14,
+   "c2_pass": true,
+   "rq2_cross_AD": {
+    "RC-mix": {
+     "observed_miss": 0.0,
+     "expected_miss_from_B_noise": 0.0,
+     "cells": 81
+    },
+    "plug-in": {
+     "observed_miss": 0.0,
+     "expected_miss_from_B_noise": 0.0006913580246913581,
+     "cells": 81
+    }
+   },
+   "e3p_real_100reps": {
+    "1": {
+     "R1": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "R1prime": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.05": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.01": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "McNemar_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "Wilson_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     }
+    },
+    "5": {
+     "R1": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "R1prime": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.05": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.01": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "McNemar_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "Wilson_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     }
+    },
+    "20": {
+     "R1": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "R1prime": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.05": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.01": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "McNemar_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "Wilson_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     }
+    }
+   }
+  },
+  "drop": {
+   "c2_r1": 6,
+   "c2_r1prime": 14,
+   "c2_pass": true,
+   "rq2_cross_AD": {
+    "RC-mix": {
+     "observed_miss": 0.0,
+     "expected_miss_from_B_noise": 0.0,
+     "cells": 81
+    },
+    "plug-in": {
+     "observed_miss": 0.0,
+     "expected_miss_from_B_noise": 0.0006913580246913581,
+     "cells": 81
+    }
+   },
+   "e3p_real_100reps": {
+    "1": {
+     "R1": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "R1prime": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.05": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.01": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "McNemar_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "Wilson_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     }
+    },
+    "5": {
+     "R1": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "R1prime": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.05": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.01": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "McNemar_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "Wilson_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     }
+    },
+    "20": {
+     "R1": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "R1prime": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.05": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.01": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "McNemar_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "Wilson_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     }
+    }
+   }
+  },
+  "violation": {
+   "c2_r1": 6,
+   "c2_r1prime": 14,
+   "c2_pass": true,
+   "rq2_cross_AD": {
+    "RC-mix": {
+     "observed_miss": 0.0,
+     "expected_miss_from_B_noise": 0.0,
+     "cells": 81
+    },
+    "plug-in": {
+     "observed_miss": 0.0,
+     "expected_miss_from_B_noise": 0.0006913580246913581,
+     "cells": 81
+    }
+   },
+   "e3p_real_100reps": {
+    "1": {
+     "R1": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "R1prime": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.05": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.01": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "McNemar_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "Wilson_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     }
+    },
+    "5": {
+     "R1": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "R1prime": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.05": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.01": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "McNemar_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "Wilson_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     }
+    },
+    "20": {
+     "R1": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "R1prime": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.05": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "SPRT0.01": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "McNemar_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     },
+     "Wilson_peek": {
+      "fwer": 0.0,
+      "sprt_in_zone_errors": 0.0
+     }
+    }
+   }
+  }
+ }
+}

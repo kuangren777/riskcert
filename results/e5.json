@@ -1,0 +1,77 @@
+{
+ "cells": {
+  "gpt-4.1-mini-2025-04-14__config__middle": {
+   "stop_n": 800,
+   "bound": Infinity,
+   "species_at_stop": 30,
+   "new_in_cont": 4,
+   "r": 0.013333333333333334,
+   "q_limit": 1.0,
+   "consistent": true,
+   "good_turing": 0.01375,
+   "rule50_stop": 223,
+   "rule50_r": 0.03333333333333333
+  },
+  "gpt-4o-mini-2024-07-18__tool_return__start": {
+   "stop_n": 800,
+   "bound": Infinity,
+   "species_at_stop": 30,
+   "new_in_cont": 2,
+   "r": 0.006666666666666667,
+   "q_limit": 1.0,
+   "consistent": true,
+   "good_turing": 0.01875,
+   "rule50_stop": 168,
+   "rule50_r": 0.016666666666666666
+  },
+  "gpt-5.4-nano-2026-03-17__config__middle": {
+   "stop_n": 800,
+   "bound": Infinity,
+   "species_at_stop": 34,
+   "new_in_cont": 4,
+   "r": 0.013333333333333334,
+   "q_limit": 1.0,
+   "consistent": true,
+   "good_turing": 0.0175,
+   "rule50_stop": 416,
+   "rule50_r": 0.02
+  },
+  "qwen3-8b-local__tool_return__middle": {
+   "stop_n": 687,
+   "bound": 0.04997059618190067,
+   "species_at_stop": 19,
+   "new_in_cont": 0,
+   "r": 0.0,
+   "q_limit": 0.08333333333333333,
+   "consistent": "True",
+   "good_turing": 0.004366812227074236,
+   "rule50_stop": 125,
+   "rule50_r": 0.03
+  },
+  "glm-5.3__config__end": {
+   "stop_n": 427,
+   "bound": 0.04996601297995562,
+   "species_at_stop": 12,
+   "new_in_cont": 3,
+   "r": 0.01,
+   "q_limit": 0.08333333333333333,
+   "consistent": "True",
+   "good_turing": 0.00702576112412178,
+   "rule50_stop": 111,
+   "rule50_r": 0.01
+  },
+  "deepseek-v4.1-flash__config__start": {
+   "stop_n": 687,
+   "bound": 0.04997059618190067,
+   "species_at_stop": 5,
+   "new_in_cont": 2,
+   "r": 0.006666666666666667,
+   "q_limit": 0.08333333333333333,
+   "consistent": "True",
+   "good_turing": 0.002911208151382824,
+   "rule50_stop": 96,
+   "rule50_r": 0.01
+  }
+ },
+ "pass": true
+}

@@ -1,0 +1,217 @@
+{
+ "metrics": {
+  "pooled|41": {
+   "field": "cell.pooled|41",
+   "agg": "frac_true",
+   "claimed": "cell.pooled|41",
+   "tol": 1e-09
+  },
+  "pooled|4o": {
+   "field": "cell.pooled|4o",
+   "agg": "frac_true",
+   "claimed": "cell.pooled|4o",
+   "tol": 1e-09
+  },
+  "pooled|nano": {
+   "field": "cell.pooled|nano",
+   "agg": "frac_true",
+   "claimed": "cell.pooled|nano",
+   "tol": 1e-09
+  },
+  "pooled|llama": {
+   "field": "cell.pooled|llama",
+   "agg": "frac_true",
+   "claimed": "cell.pooled|llama",
+   "tol": 1e-09
+  },
+  "pooled|qwen3": {
+   "field": "cell.pooled|qwen3",
+   "agg": "frac_true",
+   "claimed": "cell.pooled|qwen3",
+   "tol": 1e-09
+  },
+  "41|tool_return": {
+   "field": "cell.41|tool_return",
+   "agg": "frac_true",
+   "claimed": "cell.41|tool_return",
+   "tol": 0.005
+  },
+  "n|41|tool_return": {
+   "field": "cell.n|41|tool_return",
+   "agg": "count",
+   "claimed": "cell.n|41|tool_return"
+  },
+  "41|config": {
+   "field": "cell.41|config",
+   "agg": "frac_true",
+   "claimed": "cell.41|config",
+   "tol": 0.005
+  },
+  "n|41|config": {
+   "field": "cell.n|41|config",
+   "agg": "count",
+   "claimed": "cell.n|41|config"
+  },
+  "41|tool_desc": {
+   "field": "cell.41|tool_desc",
+   "agg": "frac_true",
+   "claimed": "cell.41|tool_desc",
+   "tol": 0.005
+  },
+  "n|41|tool_desc": {
+   "field": "cell.n|41|tool_desc",
+   "agg": "count",
+   "claimed": "cell.n|41|tool_desc"
+  },
+  "4o|tool_return": {
+   "field": "cell.4o|tool_return",
+   "agg": "frac_true",
+   "claimed": "cell.4o|tool_return",
+   "tol": 0.005
+  },
+  "n|4o|tool_return": {
+   "field": "cell.n|4o|tool_return",
+   "agg": "count",
+   "claimed": "cell.n|4o|tool_return"
+  },
+  "4o|config": {
+   "field": "cell.4o|config",
+   "agg": "frac_true",
+   "claimed": "cell.4o|config",
+   "tol": 0.005
+  },
+  "n|4o|config": {
+   "field": "cell.n|4o|config",
+   "agg": "count",
+   "claimed": "cell.n|4o|config"
+  },
+  "4o|tool_desc": {
+   "field": "cell.4o|tool_desc",
+   "agg": "frac_true",
+   "claimed": "cell.4o|tool_desc",
+   "tol": 0.005
+  },
+  "n|4o|tool_desc": {
+   "field": "cell.n|4o|tool_desc",
+   "agg": "count",
+   "claimed": "cell.n|4o|tool_desc"
+  },
+  "nano|tool_return": {
+   "field": "cell.nano|tool_return",
+   "agg": "frac_true",
+   "claimed": "cell.nano|tool_return",
+   "tol": 0.005
+  },
+  "n|nano|tool_return": {
+   "field": "cell.n|nano|tool_return",
+   "agg": "count",
+   "claimed": "cell.n|nano|tool_return"
+  },
+  "nano|config": {
+   "field": "cell.nano|config",
+   "agg": "frac_true",
+   "claimed": "cell.nano|config",
+   "tol": 0.005
+  },
+  "n|nano|config": {
+   "field": "cell.n|nano|config",
+   "agg": "count",
+   "claimed": "cell.n|nano|config"
+  },
+  "nano|tool_desc": {
+   "field": "cell.nano|tool_desc",
+   "agg": "frac_true",
+   "claimed": "cell.nano|tool_desc",
+   "tol": 0.005
+  },
+  "n|nano|tool_desc": {
+   "field": "cell.n|nano|tool_desc",
+   "agg": "count",
+   "claimed": "cell.n|nano|tool_desc"
+  },
+  "llama|tool_return": {
+   "field": "cell.llama|tool_return",
+   "agg": "frac_true",
+   "claimed": "cell.llama|tool_return",
+   "tol": 0.005
+  },
+  "n|llama|tool_return": {
+   "field": "cell.n|llama|tool_return",
+   "agg": "count",
+   "claimed": "cell.n|llama|tool_return"
+  },
+  "llama|config": {
+   "field": "cell.llama|config",
+   "agg": "frac_true",
+   "claimed": "cell.llama|config",
+   "tol": 0.005
+  },
+  "n|llama|config": {
+   "field": "cell.n|llama|config",
+   "agg": "count",
+   "claimed": "cell.n|llama|config"
+  },
+  "llama|tool_desc": {
+   "field": "cell.llama|tool_desc",
+   "agg": "frac_true",
+   "claimed": "cell.llama|tool_desc",
+   "tol": 0.005
+  },
+  "n|llama|tool_desc": {
+   "field": "cell.n|llama|tool_desc",
+   "agg": "count",
+   "claimed": "cell.n|llama|tool_desc"
+  },
+  "qwen3|tool_return": {
+   "field": "cell.qwen3|tool_return",
+   "agg": "frac_true",
+   "claimed": "cell.qwen3|tool_return",
+   "tol": 0.005
+  },
+  "n|qwen3|tool_return": {
+   "field": "cell.n|qwen3|tool_return",
+   "agg": "count",
+   "claimed": "cell.n|qwen3|tool_return"
+  },
+  "qwen3|config": {
+   "field": "cell.qwen3|config",
+   "agg": "frac_true",
+   "claimed": "cell.qwen3|config",
+   "tol": 0.005
+  },
+  "n|qwen3|config": {
+   "field": "cell.n|qwen3|config",
+   "agg": "count",
+   "claimed": "cell.n|qwen3|config"
+  },
+  "qwen3|tool_desc": {
+   "field": "cell.qwen3|tool_desc",
+   "agg": "frac_true",
+   "claimed": "cell.qwen3|tool_desc",
+   "tol": 0.005
+  },
+  "n|qwen3|tool_desc": {
+   "field": "cell.n|qwen3|tool_desc",
+   "agg": "count",
+   "claimed": "cell.n|qwen3|tool_desc"
+  }
+ },
+ "polarity": [
+  {
+   "name": "unexposed_never_violates",
+   "sample_filter": {
+    "exposed": false,
+    "channel": "tool_return"
+   },
+   "field": "security",
+   "expect": false,
+   "min_fraction": 1.0
+  }
+ ],
+ "provenance": {
+  "request_count_field": "request_count",
+  "served_id_field": "served_ids",
+  "relay_log": "../../data/pilot.log",
+  "min_requests": 1
+ }
+}

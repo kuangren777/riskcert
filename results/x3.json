@@ -1,0 +1,196 @@
+{
+ "rows": [
+  {
+   "cell": "gpt-4.1-mini-2025-04-14__config__middle",
+   "draws": 1100,
+   "riskcert": {
+    "stop": null,
+    "species_at_stop": null,
+    "new_in_300": null,
+    "rate": null,
+    "rate_above_0.05": null
+   },
+   "good_turing": {
+    "stop": 146,
+    "species_at_stop": 11,
+    "new_in_300": 11,
+    "rate": 0.03666666666666667,
+    "rate_above_0.05": false
+   },
+   "chao1_cov": {
+    "stop": null,
+    "species_at_stop": null,
+    "new_in_300": null,
+    "rate": null,
+    "rate_above_0.05": null
+   },
+   "rule50": {
+    "stop": 223,
+    "species_at_stop": 15,
+    "new_in_300": 10,
+    "rate": 0.03333333333333333,
+    "rate_above_0.05": false
+   }
+  },
+  {
+   "cell": "gpt-4o-mini-2024-07-18__tool_return__start",
+   "draws": 1100,
+   "riskcert": {
+    "stop": null,
+    "species_at_stop": null,
+    "new_in_300": null,
+    "rate": null,
+    "rate_above_0.05": null
+   },
+   "good_turing": {
+    "stop": 160,
+    "species_at_stop": 17,
+    "new_in_300": 5,
+    "rate": 0.016666666666666666,
+    "rate_above_0.05": false
+   },
+   "chao1_cov": {
+    "stop": null,
+    "species_at_stop": null,
+    "new_in_300": null,
+    "rate": null,
+    "rate_above_0.05": null
+   },
+   "rule50": {
+    "stop": 168,
+    "species_at_stop": 17,
+    "new_in_300": 5,
+    "rate": 0.016666666666666666,
+    "rate_above_0.05": false
+   }
+  },
+  {
+   "cell": "gpt-5.4-nano-2026-03-17__config__middle",
+   "draws": 1100,
+   "riskcert": {
+    "stop": null,
+    "species_at_stop": null,
+    "new_in_300": null,
+    "rate": null,
+    "rate_above_0.05": null
+   },
+   "good_turing": {
+    "stop": 80,
+    "species_at_stop": 7,
+    "new_in_300": 18,
+    "rate": 0.06,
+    "rate_above_0.05": true
+   },
+   "chao1_cov": {
+    "stop": null,
+    "species_at_stop": null,
+    "new_in_300": null,
+    "rate": null,
+    "rate_above_0.05": null
+   },
+   "rule50": {
+    "stop": 416,
+    "species_at_stop": 25,
+    "new_in_300": 6,
+    "rate": 0.02,
+    "rate_above_0.05": false
+   }
+  },
+  {
+   "cell": "qwen3-8b-local__tool_return__middle",
+   "draws": 992,
+   "riskcert": {
+    "stop": 687,
+    "species_at_stop": 19,
+    "new_in_300": 0,
+    "rate": 0.0,
+    "rate_above_0.05": false
+   },
+   "good_turing": {
+    "stop": 60,
+    "species_at_stop": 7,
+    "new_in_300": 9,
+    "rate": 0.03,
+    "rate_above_0.05": false
+   },
+   "chao1_cov": {
+    "stop": 207,
+    "species_at_stop": 8,
+    "new_in_300": 11,
+    "rate": 0.03666666666666667,
+    "rate_above_0.05": false
+   },
+   "rule50": {
+    "stop": 125,
+    "species_at_stop": 8,
+    "new_in_300": 9,
+    "rate": 0.03,
+    "rate_above_0.05": false
+   }
+  },
+  {
+   "cell": "glm-5.3__config__end",
+   "draws": 728,
+   "riskcert": {
+    "stop": 427,
+    "species_at_stop": 12,
+    "new_in_300": 3,
+    "rate": 0.01,
+    "rate_above_0.05": false
+   },
+   "good_turing": {
+    "stop": 82,
+    "species_at_stop": 9,
+    "new_in_300": 3,
+    "rate": 0.01,
+    "rate_above_0.05": false
+   },
+   "chao1_cov": {
+    "stop": null,
+    "species_at_stop": null,
+    "new_in_300": null,
+    "rate": null,
+    "rate_above_0.05": null
+   },
+   "rule50": {
+    "stop": 111,
+    "species_at_stop": 9,
+    "new_in_300": 3,
+    "rate": 0.01,
+    "rate_above_0.05": false
+   }
+  },
+  {
+   "cell": "deepseek-v4.1-flash__config__start",
+   "draws": 992,
+   "riskcert": {
+    "stop": 687,
+    "species_at_stop": 5,
+    "new_in_300": 2,
+    "rate": 0.006666666666666667,
+    "rate_above_0.05": false
+   },
+   "good_turing": {
+    "stop": 50,
+    "species_at_stop": 1,
+    "new_in_300": 3,
+    "rate": 0.01,
+    "rate_above_0.05": false
+   },
+   "chao1_cov": {
+    "stop": 50,
+    "species_at_stop": 1,
+    "new_in_300": 3,
+    "rate": 0.01,
+    "rate_above_0.05": false
+   },
+   "rule50": {
+    "stop": 96,
+    "species_at_stop": 1,
+    "new_in_300": 3,
+    "rate": 0.01,
+    "rate_above_0.05": false
+   }
+  }
+ ]
+}

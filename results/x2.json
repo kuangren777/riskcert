@@ -1,0 +1,103 @@
+{
+ "reps": 1000,
+ "limit": 0.07067607312813534,
+ "rows": [
+  {
+   "design": "A_mild",
+   "protocol": "fixed-desc",
+   "RankCS-any": 0.15,
+   "RankCS-final": 0.002,
+   "BBEDGE-any": 0.011,
+   "BBEDGE-final": 0.0
+  },
+  {
+   "design": "A_mild",
+   "protocol": "fixed-asc",
+   "RankCS-any": 0.183,
+   "RankCS-final": 0.002,
+   "BBEDGE-any": 0.014,
+   "BBEDGE-final": 0.0
+  },
+  {
+   "design": "A_mild",
+   "protocol": "fixed-perm",
+   "RankCS-any": 0.004,
+   "RankCS-final": 0.0,
+   "BBEDGE-any": 0.0,
+   "BBEDGE-final": 0.0
+  },
+  {
+   "design": "A_mild",
+   "protocol": "iid",
+   "RankCS-any": 0.005,
+   "RankCS-final": 0.002,
+   "BBEDGE-any": 0.0,
+   "BBEDGE-final": 0.0
+  },
+  {
+   "design": "B_extreme",
+   "protocol": "fixed-desc",
+   "RankCS-any": 1.0,
+   "RankCS-final": 0.0,
+   "BBEDGE-any": 1.0,
+   "BBEDGE-final": 0.0
+  },
+  {
+   "design": "B_extreme",
+   "protocol": "fixed-asc",
+   "RankCS-any": 1.0,
+   "RankCS-final": 0.0,
+   "BBEDGE-any": 0.999,
+   "BBEDGE-final": 0.0
+  },
+  {
+   "design": "B_extreme",
+   "protocol": "fixed-perm",
+   "RankCS-any": 0.002,
+   "RankCS-final": 0.0,
+   "BBEDGE-any": 0.0,
+   "BBEDGE-final": 0.0
+  },
+  {
+   "design": "B_extreme",
+   "protocol": "iid",
+   "RankCS-any": 0.011,
+   "RankCS-final": 0.0,
+   "BBEDGE-any": 0.001,
+   "BBEDGE-final": 0.0
+  },
+  {
+   "design": "D_adv",
+   "protocol": "fixed-desc",
+   "RankCS-any": 0.962,
+   "RankCS-final": 0.0,
+   "BBEDGE-any": 0.587,
+   "BBEDGE-final": 0.0
+  },
+  {
+   "design": "D_adv",
+   "protocol": "fixed-asc",
+   "RankCS-any": 0.133,
+   "RankCS-final": 0.004,
+   "BBEDGE-any": 0.043,
+   "BBEDGE-final": 0.0
+  },
+  {
+   "design": "D_adv",
+   "protocol": "fixed-perm",
+   "RankCS-any": 0.016,
+   "RankCS-final": 0.001,
+   "BBEDGE-any": 0.001,
+   "BBEDGE-final": 0.0
+  },
+  {
+   "design": "D_adv",
+   "protocol": "iid",
+   "RankCS-any": 0.016,
+   "RankCS-final": 0.003,
+   "BBEDGE-any": 0.003,
+   "BBEDGE-final": 0.002
+  }
+ ],
+ "X2_claim": true
+}

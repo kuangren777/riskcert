@@ -1,0 +1,838 @@
+{
+ "a": 0.0125,
+ "n_max": 450,
+ "reps": 1000,
+ "seed": 2028,
+ "rows": [
+  {
+   "pi": 0.05,
+   "q": 0.5,
+   "delta": 0.0,
+   "c_obf": 2.5712477972775343,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 0.0,
+     "abstain": 1.0,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 0.0,
+     "abstain": 1.0,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "alpha-spending OBF": {
+     "error": 0.012,
+     "power": 0.0,
+     "abstain": 0.988,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 0.0,
+     "abstain": 1.0,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "fixed-n McNemar": {
+     "error": 0.003,
+     "power": 0.0,
+     "abstain": 0.997,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.05,
+   "q": 0.65,
+   "delta": 0.015000000000000003,
+   "c_obf": 2.5236127319327246,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 0.038,
+     "abstain": 0.962,
+     "median_latency": 349.5,
+     "mean_latency": 336.07894736842104,
+     "mean_episode_cost": 891.342
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 0.0,
+     "abstain": 1.0,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "alpha-spending OBF": {
+     "error": 0.0,
+     "power": 0.143,
+     "abstain": 0.857,
+     "median_latency": 400.0,
+     "mean_latency": 381.64335664335664,
+     "mean_episode_cost": 880.45
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 0.015,
+     "abstain": 0.985,
+     "median_latency": 300.0,
+     "mean_latency": 301.93333333333334,
+     "mean_episode_cost": 895.558
+    },
+    "fixed-n McNemar": {
+     "error": 0.0,
+     "power": 0.092,
+     "abstain": 0.908,
+     "median_latency": 450.0,
+     "mean_latency": 450.0,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.05,
+   "q": 0.8,
+   "delta": 0.030000000000000006,
+   "c_obf": 2.6,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 0.385,
+     "abstain": 0.615,
+     "median_latency": 350.0,
+     "mean_latency": 338.6961038961039,
+     "mean_episode_cost": 814.296
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 0.003,
+     "abstain": 0.997,
+     "median_latency": 394.0,
+     "mean_latency": 406.6666666666667,
+     "mean_episode_cost": 899.74
+    },
+    "alpha-spending OBF": {
+     "error": 0.0,
+     "power": 0.629,
+     "abstain": 0.371,
+     "median_latency": 350.0,
+     "mean_latency": 360.731319554849,
+     "mean_episode_cost": 787.7
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 0.25,
+     "abstain": 0.75,
+     "median_latency": 352.0,
+     "mean_latency": 336.572,
+     "mean_episode_cost": 843.286
+    },
+    "fixed-n McNemar": {
+     "error": 0.0,
+     "power": 0.587,
+     "abstain": 0.413,
+     "median_latency": 450.0,
+     "mean_latency": 450.0,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.05,
+   "q": 0.95,
+   "delta": 0.045,
+   "c_obf": 2.5298221281347035,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 0.935,
+     "abstain": 0.065,
+     "median_latency": 280.0,
+     "mean_latency": 282.2577540106952,
+     "mean_episode_cost": 586.322
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 0.084,
+     "abstain": 0.916,
+     "median_latency": 417.5,
+     "mean_latency": 405.6547619047619,
+     "mean_episode_cost": 892.55
+    },
+    "alpha-spending OBF": {
+     "error": 0.0,
+     "power": 0.994,
+     "abstain": 0.006,
+     "median_latency": 275.0,
+     "mean_latency": 281.1116700201207,
+     "mean_episode_cost": 564.25
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 0.889,
+     "abstain": 0.111,
+     "median_latency": 284.0,
+     "mean_latency": 286.6501687289089,
+     "mean_episode_cost": 609.564
+    },
+    "fixed-n McNemar": {
+     "error": 0.0,
+     "power": 0.988,
+     "abstain": 0.012,
+     "median_latency": 450.0,
+     "mean_latency": 450.0,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.1,
+   "q": 0.5,
+   "delta": 0.0,
+   "c_obf": 2.5955427380922007,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.008,
+     "power": 0.0,
+     "abstain": 0.992,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 0.0,
+     "abstain": 1.0,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "alpha-spending OBF": {
+     "error": 0.014,
+     "power": 0.0,
+     "abstain": 0.986,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "mSPRT": {
+     "error": 0.005,
+     "power": 0.0,
+     "abstain": 0.995,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "fixed-n McNemar": {
+     "error": 0.01,
+     "power": 0.0,
+     "abstain": 0.99,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.1,
+   "q": 0.65,
+   "delta": 0.030000000000000006,
+   "c_obf": 2.577553942076961,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 0.123,
+     "abstain": 0.877,
+     "median_latency": 297.0,
+     "mean_latency": 297.4878048780488,
+     "mean_episode_cost": 862.482
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 0.011,
+     "abstain": 0.989,
+     "median_latency": 405.0,
+     "mean_latency": 396.09090909090907,
+     "mean_episode_cost": 898.814
+    },
+    "alpha-spending OBF": {
+     "error": 0.0,
+     "power": 0.317,
+     "abstain": 0.683,
+     "median_latency": 375.0,
+     "mean_latency": 373.5804416403785,
+     "mean_episode_cost": 851.55
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 0.078,
+     "abstain": 0.922,
+     "median_latency": 325.5,
+     "mean_latency": 309.8974358974359,
+     "mean_episode_cost": 878.144
+    },
+    "fixed-n McNemar": {
+     "error": 0.0,
+     "power": 0.259,
+     "abstain": 0.741,
+     "median_latency": 450.0,
+     "mean_latency": 450.0,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.1,
+   "q": 0.8,
+   "delta": 0.06000000000000001,
+   "c_obf": 2.6234577060932303,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 0.816,
+     "abstain": 0.184,
+     "median_latency": 231.0,
+     "mean_latency": 244.54901960784315,
+     "mean_episode_cost": 564.704
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 0.406,
+     "abstain": 0.594,
+     "median_latency": 385.5,
+     "mean_latency": 374.81773399014776,
+     "mean_episode_cost": 838.952
+    },
+    "alpha-spending OBF": {
+     "error": 0.0,
+     "power": 0.938,
+     "abstain": 0.062,
+     "median_latency": 300.0,
+     "mean_latency": 301.81236673773986,
+     "mean_episode_cost": 622.0
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 0.761,
+     "abstain": 0.239,
+     "median_latency": 267.0,
+     "mean_latency": 273.8488830486202,
+     "mean_episode_cost": 631.898
+    },
+    "fixed-n McNemar": {
+     "error": 0.0,
+     "power": 0.93,
+     "abstain": 0.07,
+     "median_latency": 450.0,
+     "mean_latency": 450.0,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.1,
+   "q": 0.95,
+   "delta": 0.09,
+   "c_obf": 2.559089442421787,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 0.999,
+     "abstain": 0.001,
+     "median_latency": 146.0,
+     "mean_latency": 150.88688688688688,
+     "mean_episode_cost": 302.372
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 0.985,
+     "abstain": 0.015,
+     "median_latency": 296.0,
+     "mean_latency": 300.59593908629444,
+     "mean_episode_cost": 605.674
+    },
+    "alpha-spending OBF": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 200.0,
+     "mean_latency": 205.55,
+     "mean_episode_cost": 411.1
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 0.999,
+     "abstain": 0.001,
+     "median_latency": 152.0,
+     "mean_latency": 158.02502502502503,
+     "mean_episode_cost": 316.634
+    },
+    "fixed-n McNemar": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 450.0,
+     "mean_latency": 450.0,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.2,
+   "q": 0.5,
+   "delta": 0.0,
+   "c_obf": 2.610552256310337,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.003,
+     "power": 0.0,
+     "abstain": 0.997,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 0.0,
+     "abstain": 1.0,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "alpha-spending OBF": {
+     "error": 0.008,
+     "power": 0.0,
+     "abstain": 0.992,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "mSPRT": {
+     "error": 0.001,
+     "power": 0.0,
+     "abstain": 0.999,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "fixed-n McNemar": {
+     "error": 0.007,
+     "power": 0.0,
+     "abstain": 0.993,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.2,
+   "q": 0.65,
+   "delta": 0.06000000000000001,
+   "c_obf": 2.6,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 0.308,
+     "abstain": 0.692,
+     "median_latency": 259.5,
+     "mean_latency": 258.9805194805195,
+     "mean_episode_cost": 782.332
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 0.233,
+     "abstain": 0.767,
+     "median_latency": 367.0,
+     "mean_latency": 352.91416309012874,
+     "mean_episode_cost": 854.758
+    },
+    "alpha-spending OBF": {
+     "error": 0.0,
+     "power": 0.626,
+     "abstain": 0.374,
+     "median_latency": 350.0,
+     "mean_latency": 350.1996805111821,
+     "mean_episode_cost": 775.05
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 0.28,
+     "abstain": 0.72,
+     "median_latency": 311.0,
+     "mean_latency": 295.7892857142857,
+     "mean_episode_cost": 813.642
+    },
+    "fixed-n McNemar": {
+     "error": 0.0,
+     "power": 0.603,
+     "abstain": 0.397,
+     "median_latency": 450.0,
+     "mean_latency": 450.0,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.2,
+   "q": 0.8,
+   "delta": 0.12000000000000002,
+   "c_obf": 2.6047824327112186,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 0.997,
+     "abstain": 0.003,
+     "median_latency": 130.0,
+     "mean_latency": 151.26980942828484,
+     "mean_episode_cost": 304.332
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 0.995,
+     "abstain": 0.005,
+     "median_latency": 234.0,
+     "mean_latency": 243.16180904522614,
+     "mean_episode_cost": 488.392
+    },
+    "alpha-spending OBF": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 225.0,
+     "mean_latency": 221.0,
+     "mean_episode_cost": 442.0
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 0.998,
+     "abstain": 0.002,
+     "median_latency": 158.0,
+     "mean_latency": 169.72745490981964,
+     "mean_episode_cost": 340.576
+    },
+    "fixed-n McNemar": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 450.0,
+     "mean_latency": 450.0,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.2,
+   "q": 0.95,
+   "delta": 0.18,
+   "c_obf": 2.5584085962673253,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 71.0,
+     "mean_latency": 74.61,
+     "mean_episode_cost": 149.22
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 146.5,
+     "mean_latency": 149.235,
+     "mean_episode_cost": 298.47
+    },
+    "alpha-spending OBF": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 150.0,
+     "mean_latency": 148.45,
+     "mean_episode_cost": 296.9
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 75.0,
+     "mean_latency": 78.444,
+     "mean_episode_cost": 156.888
+    },
+    "fixed-n McNemar": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 450.0,
+     "mean_latency": 450.0,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.35,
+   "q": 0.5,
+   "delta": 0.0,
+   "c_obf": 2.6097206033487637,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.005,
+     "power": 0.0,
+     "abstain": 0.995,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "comparison (ours)": {
+     "error": 0.001,
+     "power": 0.0,
+     "abstain": 0.999,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "alpha-spending OBF": {
+     "error": 0.006,
+     "power": 0.0,
+     "abstain": 0.994,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "mSPRT": {
+     "error": 0.002,
+     "power": 0.0,
+     "abstain": 0.998,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    },
+    "fixed-n McNemar": {
+     "error": 0.005,
+     "power": 0.0,
+     "abstain": 0.995,
+     "median_latency": null,
+     "mean_latency": null,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.35,
+   "q": 0.65,
+   "delta": 0.10500000000000001,
+   "c_obf": 2.6337024657362798,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 0.575,
+     "abstain": 0.425,
+     "median_latency": 250.0,
+     "mean_latency": 243.41565217391303,
+     "mean_episode_cost": 662.428
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 0.716,
+     "abstain": 0.284,
+     "median_latency": 284.0,
+     "mean_latency": 288.7150837988827,
+     "mean_episode_cost": 669.04
+    },
+    "alpha-spending OBF": {
+     "error": 0.0,
+     "power": 0.896,
+     "abstain": 0.104,
+     "median_latency": 300.0,
+     "mean_latency": 310.79799107142856,
+     "mean_episode_cost": 650.55
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 0.624,
+     "abstain": 0.376,
+     "median_latency": 265.0,
+     "mean_latency": 262.40865384615387,
+     "mean_episode_cost": 665.886
+    },
+    "fixed-n McNemar": {
+     "error": 0.0,
+     "power": 0.89,
+     "abstain": 0.11,
+     "median_latency": 450.0,
+     "mean_latency": 450.0,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.35,
+   "q": 0.8,
+   "delta": 0.21000000000000002,
+   "c_obf": 2.611177107541311,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 78.0,
+     "mean_latency": 88.545,
+     "mean_episode_cost": 177.09
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 134.0,
+     "mean_latency": 139.237,
+     "mean_episode_cost": 278.474
+    },
+    "alpha-spending OBF": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 175.0,
+     "mean_latency": 171.325,
+     "mean_episode_cost": 342.65
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 93.0,
+     "mean_latency": 99.914,
+     "mean_episode_cost": 199.828
+    },
+    "fixed-n McNemar": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 450.0,
+     "mean_latency": 450.0,
+     "mean_episode_cost": 900.0
+    }
+   }
+  },
+  {
+   "pi": 0.35,
+   "q": 0.95,
+   "delta": 0.31499999999999995,
+   "c_obf": 2.633554036773077,
+   "reps": 1000,
+   "methods": {
+    "sign (ours)": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 42.0,
+     "mean_latency": 42.88,
+     "mean_episode_cost": 85.76
+    },
+    "comparison (ours)": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 84.0,
+     "mean_latency": 85.452,
+     "mean_episode_cost": 170.904
+    },
+    "alpha-spending OBF": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 125.0,
+     "mean_latency": 117.775,
+     "mean_episode_cost": 235.55
+    },
+    "mSPRT": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 43.0,
+     "mean_latency": 45.098,
+     "mean_episode_cost": 90.196
+    },
+    "fixed-n McNemar": {
+     "error": 0.0,
+     "power": 1.0,
+     "abstain": 0.0,
+     "median_latency": 450.0,
+     "mean_latency": 450.0,
+     "mean_episode_cost": 900.0
+    }
+   }
+  }
+ ],
+ "B_valid": {
+  "sign (ours)": true,
+  "comparison (ours)": true,
+  "alpha-spending OBF": true,
+  "mSPRT": true,
+  "fixed-n McNemar": true
+ },
+ "B_power_sign_ge_obf": "3/12",
+ "B_power_settings_lost": [
+  [
+   0.05,
+   0.65
+  ],
+  [
+   0.05,
+   0.8
+  ],
+  [
+   0.05,
+   0.95
+  ],
+  [
+   0.1,
+   0.65
+  ],
+  [
+   0.1,
+   0.8
+  ],
+  [
+   0.1,
+   0.95
+  ],
+  [
+   0.2,
+   0.65
+  ],
+  [
+   0.2,
+   0.8
+  ],
+  [
+   0.35,
+   0.65
+  ]
+ ]
+}

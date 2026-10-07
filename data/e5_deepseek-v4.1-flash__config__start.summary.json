@@ -1,0 +1,8 @@
+{
+ "cell": "deepseek-v4.1-flash__config__start",
+ "stop_n": 687,
+ "bound": 0.04997059618190067,
+ "species": 7,
+ "new_in_continuation": 2,
+ "cont_runs": 300
+}

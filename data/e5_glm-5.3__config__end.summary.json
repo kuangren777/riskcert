@@ -1,0 +1,8 @@
+{
+ "cell": "glm-5.3__config__end",
+ "stop_n": 427,
+ "bound": 0.04996601297995562,
+ "species": 15,
+ "new_in_continuation": 3,
+ "cont_runs": 300
+}

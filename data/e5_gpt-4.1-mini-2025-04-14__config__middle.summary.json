@@ -1,0 +1,8 @@
+{
+ "cell": "gpt-4.1-mini-2025-04-14__config__middle",
+ "stop_n": 800,
+ "bound": Infinity,
+ "species": 34,
+ "new_in_continuation": 4,
+ "cont_runs": 300
+}

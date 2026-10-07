@@ -1,0 +1,13 @@
+{
+ "model": "qwen3-8b-local",
+ "rounds_used": 36,
+ "decision": ">",
+ "certified": true,
+ "interval": [
+  0.02200000000000002,
+  1.0
+ ],
+ "runs_recorded": 72,
+ "seed": 31,
+ "units_sha": "65eff35cf062259deec27d4f47d5a5cdb3525d309a8772c8c2c99564e95f2002"
+}

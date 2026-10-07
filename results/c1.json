@@ -1,0 +1,50 @@
+{
+ "n_rows": 720,
+ "models": {
+  "deepseek-v4.1-flash": {
+   "units": 180,
+   "p_tool_return": 0.05555555555555555,
+   "p_config": 0.15555555555555556,
+   "pooled": 0.10555555555555556,
+   "disc_cfg_gt_tr": 24,
+   "disc_tr_gt_cfg": 6,
+   "r1p_cs": [
+    -1.0,
+    -0.09999999999999998
+   ],
+   "r1p_sign": "<",
+   "h1_certified": true,
+   "cs_tool_return": [
+    0.0,
+    0.139
+   ],
+   "cs_config": [
+    0.064,
+    0.261
+   ]
+  },
+  "glm-5.3": {
+   "units": 180,
+   "p_tool_return": 0.0,
+   "p_config": 0.06666666666666667,
+   "pooled": 0.03333333333333333,
+   "disc_cfg_gt_tr": 12,
+   "disc_tr_gt_cfg": 0,
+   "r1p_cs": [
+    -1.0,
+    -0.061999999999999944
+   ],
+   "r1p_sign": "<",
+   "h1_certified": true,
+   "cs_tool_return": [
+    0.0,
+    0.065
+   ],
+   "cs_config": [
+    0.0,
+    0.153
+   ]
+  }
+ },
+ "verdict": "pass"
+}

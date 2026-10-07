@@ -1,0 +1,8 @@
+# analysis and replays (enough to reproduce every table, macro and figure from the released data)
+numpy==2.4.6
+scipy==1.18.1
+matplotlib==3.11.0
+pytest
+# live experiments only (episodes against models)
+openai==2.44.0
+agentdojo==0.1.35

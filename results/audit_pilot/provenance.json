@@ -1,0 +1,10 @@
+{
+ "request_count": 2565,
+ "served_ids": [
+  "meta-llama/Llama-3.1-8B-Instruct",
+  "Qwen/Qwen3-8B",
+  "api-gateway:gpt-4.1-mini-2025-04-14",
+  "api-gateway:gpt-4o-mini-2024-07-18",
+  "api-gateway:gpt-5.4-nano-2026-03-17"
+ ]
+}

@@ -1,0 +1,46 @@
+[
+ {
+  "arm": "cold",
+  "cost": 540,
+  "rounds": 180,
+  "decided": 2,
+  "decisions": {
+   "sign|tool_return|config": "<",
+   "sign|tool_return|tool_desc": "<"
+  }
+ },
+ {
+  "arm": "prev",
+  "cost": 540,
+  "rounds": 180,
+  "decided": 2,
+  "decisions": {
+   "sign|tool_return|config": "<",
+   "sign|tool_return|tool_desc": "<"
+  }
+ },
+ {
+  "arm": "adversary",
+  "cost": 532,
+  "rounds": 180,
+  "decided": 4,
+  "decisions": {
+   "sign|tool_return|config": "<",
+   "sign|config|tool_desc": ">",
+   "sign|tool_return|tool_desc": "<",
+   "cell|config|start": "above"
+  }
+ },
+ {
+  "arm": "oracle",
+  "cost": 531,
+  "rounds": 180,
+  "decided": 4,
+  "decisions": {
+   "sign|tool_return|config": "<",
+   "sign|config|tool_desc": ">",
+   "sign|tool_return|tool_desc": "<",
+   "cell|config|start": "above"
+  }
+ }
+]

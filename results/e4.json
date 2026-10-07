@@ -1,0 +1,12 @@
+{
+ "E4_V": true,
+ "E4_C": false,
+ "oracle_hits": 0,
+ "prev_hits": 3,
+ "adv_ratio": {
+  "gpt-4o-mini-2024-07-18\u2192gpt-4.1-mini-2025-04-14": 1.078656898216531,
+  "gpt-4.1-mini-2025-04-14\u2192gpt-5.4-nano-2026-03-17": 1.0877634097191986,
+  "qwen25-7b-local\u2192qwen3-8b-local": 1.042831008610953,
+  "qwen3-8b-local\u2192qwen3-32b-local": 1.0590988374467947
+ }
+}

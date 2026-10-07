@@ -1,0 +1,113 @@
+{
+ "AgentDojo": {
+  "within_session_A": {
+   "RC-mix": {
+    "marginal_miss": 0.0,
+    "simultaneous_miss": 0.0,
+    "mean_final_width": 0.5817587373737375
+   },
+   "plug-in": {
+    "marginal_miss": 0.0,
+    "simultaneous_miss": 0.0,
+    "mean_final_width": 0.38695212121212125
+   },
+   "Wilson-peek": {
+    "marginal_miss": 0.01404040404040404,
+    "simultaneous_miss": 0.755,
+    "mean_final_width": 0.29379727183384785
+   },
+   "CP-final": {
+    "marginal_miss": 5.0505050505050505e-05,
+    "simultaneous_miss": 0.005,
+    "mean_final_width": 0.2799592496012039
+   }
+  },
+  "cross_session": {
+   "RC-mix": {
+    "observed_miss": 0.0,
+    "expected_miss_from_B_noise": 0.0,
+    "cells": 81
+   },
+   "plug-in": {
+    "observed_miss": 0.0,
+    "expected_miss_from_B_noise": 0.0006913580246913581,
+    "cells": 81
+   }
+  },
+  "K": 99
+ },
+ "InjecAgent ASR-valid": {
+  "within_session_A": {
+   "RC-mix": {
+    "marginal_miss": 0.0,
+    "simultaneous_miss": 0.0,
+    "mean_final_width": 0.28365083333333335
+   },
+   "plug-in": {
+    "marginal_miss": 0.0,
+    "simultaneous_miss": 0.0,
+    "mean_final_width": 0.23837906250000004
+   },
+   "Wilson-peek": {
+    "marginal_miss": 0.022916666666666665,
+    "simultaneous_miss": 0.675,
+    "mean_final_width": 0.1777530901857344
+   },
+   "CP-final": {
+    "marginal_miss": 0.0005208333333333333,
+    "simultaneous_miss": 0.025,
+    "mean_final_width": 0.17209041390473537
+   }
+  },
+  "cross_session": {
+   "RC-mix": {
+    "observed_miss": 0.0,
+    "expected_miss_from_B_noise": 0.0,
+    "cells": 48
+   },
+   "plug-in": {
+    "observed_miss": 0.0,
+    "expected_miss_from_B_noise": 8.333333333333333e-05,
+    "cells": 48
+   }
+  },
+  "K": 48
+ },
+ "InjecAgent ASR-all": {
+  "within_session_A": {
+   "RC-mix": {
+    "marginal_miss": 0.0,
+    "simultaneous_miss": 0.0,
+    "mean_final_width": 0.2527816666666667
+   },
+   "plug-in": {
+    "marginal_miss": 0.0,
+    "simultaneous_miss": 0.0,
+    "mean_final_width": 0.2261803125
+   },
+   "Wilson-peek": {
+    "marginal_miss": 0.02020833333333333,
+    "simultaneous_miss": 0.63,
+    "mean_final_width": 0.1670307267596437
+   },
+   "CP-final": {
+    "marginal_miss": 0.0004166666666666667,
+    "simultaneous_miss": 0.02,
+    "mean_final_width": 0.1618588438789613
+   }
+  },
+  "cross_session": {
+   "RC-mix": {
+    "observed_miss": 0.0,
+    "expected_miss_from_B_noise": 0.0,
+    "cells": 48
+   },
+   "plug-in": {
+    "observed_miss": 0.0,
+    "expected_miss_from_B_noise": 6.25e-05,
+    "cells": 48
+   }
+  },
+  "K": 48
+ }
+}
