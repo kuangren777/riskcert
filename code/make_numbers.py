@@ -44,12 +44,15 @@ def main():
     lines += mc_macros()
     lines += ebec_macros()
     lines += c3r_macros()
+    lines += x_macros()
+    lines += e4cap_macros()
     open(OUT, "w").write("\n".join(lines) + "\n")
     write_rq2_table()
     write_e4_e5_tables()
     write_panel_table()
     write_exec_table()
     write_eb_ec()
+    write_x1_table()
     print(OUT, len(lines) - 1, "macros")
 
 
@@ -349,9 +352,9 @@ def write_exec_table():
               ("Channel audit (RQ1)", rows_of(sorted(glob.glob(os.path.join(D, "c3_*.jsonl"))))),
               ("Replication of the channel audit (RQ1)", rows_of(sorted(glob.glob(os.path.join(D, "c3r_*.jsonl"))))),
               ("Discovery stop (RQ4)", rows_of(sorted(glob.glob(os.path.join(D, "e5_*__*.jsonl")))))]
-    sgt = datetime.timezone(datetime.timedelta(hours=8))
+    sgt = datetime.timezone.utc
     f = lambda t: datetime.datetime.fromtimestamp(float(t), sgt).strftime("%Y-%m-%d %H:%M")
-    rows = ["\\begin{tabular}{lrl}", "\\toprule", "Experiment & Episodes & Run window (SGT) \\\\", "\\midrule"]
+    rows = ["\\begin{tabular}{lrl}", "\\toprule", "Experiment & Episodes & Run window (UTC) \\\\", "\\midrule"]
     for name, rs in groups:
         ts = [r["ts"] for r in rs if r.get("ts") is not None]
         win = f"{f(min(ts))} to {f(max(ts))}" if ts else "not recorded per episode"
@@ -430,6 +433,78 @@ def c3r_macros():
         out += [f"\\newcommand{{\\cThreeR{t}Rounds}}{{{v['rounds']}}}",
                 f"\\newcommand{{\\cThreeR{t}Same}}{{{'yes' if v['p1'] and v['decision'] else 'no'}}}"]
     return out
+
+
+def x_macros():
+    """Positioning experiments X1-X3 (preregistered a98051bb)."""
+    out = []
+    p1 = os.path.join(ROOT, "results", "x1.json")
+    if os.path.exists(p1):
+        x = json.load(open(p1))
+        ts = x["transitions"]
+        out += [f"\\newcommand{{\\xOneRcMax}}{{{max(t['arms'][a]['riskcert_fwer'] for t in ts for a in t['arms']):.3f}}}",
+                f"\\newcommand{{\\xOneAaPrevMax}}{{{max(t['arms']['prev']['agentassay_fwer'] for t in ts):.3f}}}",
+                f"\\newcommand{{\\xOneAaAdvMax}}{{{max(t['arms']['adversary']['agentassay_fwer'] for t in ts):.3f}}}",
+                f"\\newcommand{{\\xOneAaPrevBreaks}}{{{sum(t['arms']['prev']['agentassay_fwer'] > x['limit'] for t in ts)}}}",
+                f"\\newcommand{{\\xOneLimit}}{{{x['limit']:.3f}}}", f"\\newcommand{{\\xOneTransitions}}{{{len(ts)}}}"]
+        import e4_replay as E4
+        import sessb_analyze as SB
+        import x_positioning as XP
+        ra = SB.load_ad("A")
+        n0 = sorted({v[1] for p, _ in E4.TRANSITIONS for v in XP.cell_counts(E4.units_of(ra, p)).values()})
+        prev_runs = min(t["arms"]["prev"]["agentassay_mean_runs"] for t in ts)
+        out += [f"\\newcommand{{\\xOnePriorN}}{{{n0[0] if len(n0) == 1 else f'{n0[0]}--{n0[-1]}'}}}",
+                f"\\newcommand{{\\xOneAaPrevRunsMin}}{{{prev_runs:.0f}}}"]
+    p2 = os.path.join(ROOT, "results", "x2.json")
+    if os.path.exists(p2):
+        x = json.load(open(p2))
+        srt = [r for r in x["rows"] if r["protocol"] in ("fixed-desc", "fixed-asc")]
+        out += [f"\\newcommand{{\\xTwoFinMax}}{{{max(max(r['RankCS-final'], r['BBEDGE-final']) for r in x['rows']):.3f}}}",
+                f"\\newcommand{{\\xTwoAnyIidMax}}{{{max(max(r['RankCS-any'], r['BBEDGE-any']) for r in x['rows'] if r['protocol'] == 'iid'):.3f}}}"]
+        for k, t in (("RankCS-any", "RankAny"), ("RankCS-final", "RankFin"), ("BBEDGE-any", "BbAny"), ("BBEDGE-final", "BbFin")):
+            for cls, f in (("Sorted", lambda r: r["protocol"] in ("fixed-desc", "fixed-asc")),
+                           ("Perm", lambda r: r["protocol"] == "fixed-perm"), ("Iid", lambda r: r["protocol"] == "iid")):
+                out.append(f"\\newcommand{{\\xTwo{t}{cls}}}{{{max(r[k] for r in x['rows'] if f(r)):.3f}}}")
+    p3 = os.path.join(ROOT, "results", "x3.json")
+    if os.path.exists(p3):
+        rows = json.load(open(p3))["rows"]
+        gt = [r["good_turing"] for r in rows]
+        out += [f"\\newcommand{{\\xThreeGtStopMin}}{{{min(v['stop'] for v in gt if v['stop'])}}}",
+                f"\\newcommand{{\\xThreeGtStopMax}}{{{max(v['stop'] for v in gt if v['stop'])}}}",
+                f"\\newcommand{{\\xThreeGtRateMax}}{{{max(v['rate'] for v in gt if v['rate'] is not None):.3f}}}",
+                f"\\newcommand{{\\xThreeChaoCells}}{{{sum(1 for r in rows if r['chao1_cov']['stop'])}}}",
+                f"\\newcommand{{\\xThreeCells}}{{{len(rows)}}}",
+                f"\\newcommand{{\\xThreeRcRateMax}}{{{max(r['riskcert']['rate'] for r in rows if r['riskcert']['rate'] is not None):.3f}}}"]
+    return out
+
+
+def write_x1_table():
+    p = os.path.join(ROOT, "results", "x1.json")
+    if not os.path.exists(p):
+        return
+    x = json.load(open(p))
+    rows = ["\\begin{tabular}{llrrrr}", "\\toprule",
+            "Transition & Prior & \\multicolumn{2}{c}{FWER $\\downarrow$} & \\multicolumn{2}{c}{Runs $\\downarrow$} \\\\",
+            " & & RiskCert (ours) & AgentAssay & RiskCert (ours) & AgentAssay \\\\", "\\midrule"]
+    lab = {"cold": "none", "prev": "previous release", "adversary": "wrong side"}
+    for t in x["transitions"]:
+        for a in ("cold", "prev", "adversary"):
+            v = t["arms"][a]
+            rows.append(f"{NAME[t['prev']]} $\\to$ {NAME[t['new']]} & {lab[a]} & \\textbf{{{v['riskcert_fwer']:.3f}}} & {v['agentassay_fwer']:.3f} & "
+                        f"{v['riskcert_mean_runs']:.0f} & {v['agentassay_mean_runs']:.0f} \\\\")
+    rows += ["\\bottomrule", "\\end{tabular}"]
+    open(os.path.join(ROOT, "paper_artifacts", "tab_x1.tex"), "w").write("\n".join(rows) + "\n")
+
+
+def e4cap_macros():
+    """E4: how many of the 12 decisions are certified per replay (the rest run to the 600-sample cap)."""
+    parts = []
+    for i in range(4):
+        parts += json.load(open(os.path.join(ROOT, "results", f"e4_replay_{i}.json")))
+    dec = [t["arms"][a]["mean_decided"] for t in parts for a in t["arms"]]
+    spread = max(max(t["arms"][a]["mean_decided"] for a in t["arms"]) - min(t["arms"][a]["mean_decided"] for a in t["arms"]) for t in parts)
+    return [f"\\newcommand{{\\eFourDecMin}}{{{min(dec):.1f}}}", f"\\newcommand{{\\eFourDecMax}}{{{max(dec):.1f}}}",
+            f"\\newcommand{{\\eFourDecSpread}}{{{spread:.1f}}}"]
 
 if __name__ == "__main__":
     main()

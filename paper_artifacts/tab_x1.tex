@@ -1,0 +1,19 @@
+\begin{tabular}{llrrrr}
+\toprule
+Transition & Prior & \multicolumn{2}{c}{FWER $\downarrow$} & \multicolumn{2}{c}{Runs $\downarrow$} \\
+ & & RiskCert (ours) & AgentAssay & RiskCert (ours) & AgentAssay \\
+\midrule
+GPT-4o-mini $\to$ GPT-4.1-mini & none & \textbf{0.000} & 0.000 & 509 & 136 \\
+GPT-4o-mini $\to$ GPT-4.1-mini & previous release & \textbf{0.000} & 1.000 & 557 & 104 \\
+GPT-4o-mini $\to$ GPT-4.1-mini & wrong side & \textbf{0.000} & 0.006 & 578 & 206 \\
+GPT-4.1-mini $\to$ GPT-5.4-nano & none & \textbf{0.000} & 0.006 & 1904 & 548 \\
+GPT-4.1-mini $\to$ GPT-5.4-nano & previous release & \textbf{0.000} & 1.000 & 1928 & 9 \\
+GPT-4.1-mini $\to$ GPT-5.4-nano & wrong side & \textbf{0.000} & 0.200 & 2083 & 702 \\
+Qwen2.5-7B $\to$ Qwen3-8B & none & \textbf{0.000} & 0.000 & 2389 & 830 \\
+Qwen2.5-7B $\to$ Qwen3-8B & previous release & \textbf{0.000} & 0.000 & 2369 & 100 \\
+Qwen2.5-7B $\to$ Qwen3-8B & wrong side & \textbf{0.000} & 0.010 & 2497 & 762 \\
+Qwen3-8B $\to$ Qwen3-32B & none & \textbf{0.000} & 0.000 & 1930 & 639 \\
+Qwen3-8B $\to$ Qwen3-32B & previous release & \textbf{0.000} & 0.000 & 1854 & 425 \\
+Qwen3-8B $\to$ Qwen3-32B & wrong side & \textbf{0.000} & 0.028 & 2041 & 643 \\
+\bottomrule
+\end{tabular}
